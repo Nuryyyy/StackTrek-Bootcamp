@@ -1,0 +1,150 @@
+html body{
+    background-image: url(fotis-fotopoulos-LJ9KY8pIH3E-unsplash.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+.sideBar {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #F2789F;
+    overflow-x: hidden;
+    padding-top: 20px;
+    
+  }
+.sideBar a {
+/* padding: 5px;
+text-decoration: underline;
+font-size: 25px;
+color: #000000;
+display:flex;
+margin-left: 73px;
+margin-top: 10px;
+width: 150px;
+background-color: #FEE3EC;
+border-color: #FEE3EC;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+font-size: 18px;
+text-align: center; */
+display: block;
+background-color: inherit;
+color: black;
+padding: 20px;
+border: none;
+outline: none;
+text-align: center;
+cursor: pointer;
+transition: 0.3s;
+font-size: 25px;
+text-decoration: none;
+font-family: fantasy;
+
+}
+
+.sideBar a:hover {
+    background-color: #F9C5D5;
+}
+
+.dropdownContent {
+display: none;
+position: absolute;
+background-color: #FEE3EC;
+min-width: 149px;
+overflow: auto;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
+margin-left: 48px;
+}
+
+.dropdownContent a {
+color: #0a0a0a;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+font-family:monospace;
+}
+
+.dropdownContent a:hover {
+    background-color: #F9C5D5;
+}
+  
+.show {display: block;}
+
+.tabContent {
+    margin-left: 240px;
+    margin-top: -8px;
+    margin-right: -8px;
+    font-family: fantasy;
+    font-size:25px;
+    
+    
+}
+
+/* that have opacity */
+.background{ 
+    margin-left: 0;
+    margin-top: -8px;
+    background-color: #FEE3ECad;
+    padding: 300px 100px;
+    
+}
+
+
+
+/* hobby */
+.hobbiesList {
+    
+    background-color: #FFEEEE;
+    padding: 300px 100px;
+    margin-top: 8px;
+   
+}
+
+.foodList {
+    background-color: #F9C5D5ad;
+    padding: 300px 100px;
+    margin-top: 0px;
+
+
+}
+    
+.tvList {
+    background-color: #FFF6EA;
+    padding: 300px 100px;
+    margin-top: 0px;
+
+}
+
+.movieList {
+    background-color: #FEE3ECad;
+    padding: 300px 100px;
+    margin-top: 0px;
+    margin-bottom: -10px;
+
+}
+
+.mainTabsLinks {
+    background-color:transparent;
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    display: block;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 25px;
+    width: 100%;
+    font-family: fantasy;
+
+}
+
+.mainTabsLinks:hover {
+    background-color: #F9C5D5;
+}
+
+
