@@ -1,0 +1,38 @@
+/* dark table styles */
+/*Add the necessary styling to make it simlar to the given table*/
+
+table.dark {
+	background-image: url(gradient.gif);
+	border: 1px solid #1a1a1a;
+	font-family: Arial, Helvetica, sans-serif;
+	color: darkgray;
+	border-collapse: collapse;
+	height: 100%;
+	table-layout: fixed;
+	
+	
+	
+}
+
+table.dark tr{
+	height: auto;
+}
+
+table.dark th {
+	border-bottom:1px solid #000;
+	text-align: left;
+	color: white;
+}
+
+table.dark td {
+	border-right:1px solid #1a1a1a;
+	height: 50px;
+	padding: 10px;
+}
+
+table.dark h4 {
+	font-weight:bold;
+	color: white;
+	margin: auto;
+	padding: 5px;
+}

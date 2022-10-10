@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment</title>
+    <link rel="stylesheet" href="index.css" />
+</head>
+<body>
+        <div class="sideBar">
+            <!-- <button class="mainTabsLinks" onclick="myfunction_x(event,'aboutMe')" >About Me</button> -->
+            <a href="#aboutMe">About me</a>
+            <button class="mainTabsLinks" onclick="myfunction_y()" >Learn More</button>
+            <div id="drpbtnList" class="dropdownContent">
+                <a href="#hobbiesref">Hobbies</a>
+                <a href="#foodref">Food</a>
+                <a href="#tvSeriesref">TV Series</a>
+                <a href="#moviesref">Movies</a>
+            </div>
+        </div>
+            <a name="aboutMe">
+            <div id="aboutMe" class="tabContent">
+                <div class="background">
+                    <h3>Nurymar W. Abdulla</h3>
+                    <p>Software Engineer</p>
+                </div>
+            </div> 
+            </a>
+            <a name="hobbiesref">
+            <div id="learnMore" class="tabContent">
+                <div class="hobbiesList"> 
+                    <h3>My hobbies: </h3>
+                    <p id="hobbies"></p>
+                </div>
+            </a>
+            <a name="foodref">
+                <div class="foodList">
+                    <h3>My favorite foods: </h3>
+                    <p id="food"></p>
+                </div>
+            </a>
+            
+            <a name="tvSeriesref">
+                <div class="tvList">
+                    <h3>My favorite Tv-Series: </h3>
+                <p id="tvSeries"></p>
+                </div>
+            </a>
+            
+            <a name="moviesref">
+                <div class="movieList">
+                    <h3>My favorite movies: </h3>
+                <p id="movies"></p>
+                </div>
+            </a>
+            </div>
+            
+<script src="index.js"></script>
+</body>
+</html>

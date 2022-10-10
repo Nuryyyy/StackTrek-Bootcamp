@@ -1,0 +1,31 @@
+body {
+    margin: 40%;
+    background-color: #FEE3EC;
+    
+}
+#btn{
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+}
+
+
+ion-icon {
+    font-size: 100px;
+  }
+
+.center{
+    font-size: 50px;
+    text-align: center; 
+    border: solid 3px;
+    width: 200px;
+    /* height: 00px; */
+    border-radius: 10px;
+    /* padding: 1px 0; */
+    background-color: white;
+   
+}
+#main {
+   display: flex;
+   width: 500px;
+}
