@@ -1,27 +1,17 @@
-
-
-
-
-// console.log(imported.data)
-
-// const x = data.x;
-
-// data.x(item => console.log(item))
-
-// const data  = import('./details.json', 
-// {
-//  assert: {type: 'json'}
- 
-// })
-// console.log(data)
-
-fetch("./details.json")
+let res = fetch("./details.json", {
+    body: JSON.stringify(),
+    headers:{
+      "Content-Type":'application/json',
+      "Accept": 'application/json'
+  }
+}
+)
 .then((res) => {
-  return res.json();
+  result = res.json()
+    console.warn("result", result)
+  return result
 })
 .then((function(data) { 
-    
-    // console.log(data)
 
 
     const Infos = [data].map((info) =>
@@ -43,14 +33,19 @@ fetch("./details.json")
         Favorite food: ${favoritefood}
         `
 
-
-    
      
     
 console.log(Infos)
 
 
-}))
+}
+
+))
+
+
+.catch((error) => {
+  console.log(error)
+})
 
 
 

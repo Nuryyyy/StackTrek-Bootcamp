@@ -10,13 +10,17 @@ const  router = async(file, res) => {
 	    res.end(file)
     } catch (error) {
 	    res.writeHead(500); // 5xx means server error!
-	    res.end(error); // send the error instead
+	    res.end(err); // send the error instead
+        // res.write("file not found")
+        // res.end()
+        // console.log(error)
     } 
 }
 
 const  requestListener = (req, res) => {
-    if (req.url === "'/home'" || req.url === '/') {
+    if (req.url === '/home' || req.url === '/') {
 	    router("./routes/home.html", res)
+
     }
     else  if (req.url === '/about') { 
 	    router("./routes/about.html", res)
